@@ -4,7 +4,7 @@ pipelineJob("sample-app-pipeline-job") {
             scm {
                 git {
                     remote {
-                        url('https://github.com/andrunah/epmjnkns.git')
+                        url('https://github.com/Kontafer/epmjnkns.git')
                         credentials('jenkins-github')
                     }
                     branch('master')

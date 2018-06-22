@@ -1,6 +1,6 @@
 def CONTAINER_NAME = "epmjnkns-pipeline"
 def CONTAINER_TAG = "latest"
-def DOCKER_HUB_USER = "andruhan"
+def DOCKER_HUB_USER = "Kontafer"
 def APP_HTTP_PORT = "5050"
 
 node {
