@@ -7,7 +7,7 @@ pipelineJob("sample-app-pipeline-job") {
                         url('https://github.com/Kontafer/epmjnkns.git')
                         credentials('jenkins-github')
                     }
-                    branch('master')
+                    branch('testing')
                 }
             }
             scriptPath("jenkins_jobs/pipelineJob.groovy")
